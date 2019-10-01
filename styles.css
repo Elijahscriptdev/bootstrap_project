@@ -20,7 +20,7 @@ body {
 
 .logo-area {
   background: #f72210;
-  color: #ffffff;
+  color: white;
 }
 
 .subscribe-btn,
@@ -33,7 +33,7 @@ body {
   color: #000;
   font-size: 1.25rem;
   margin-bottom: 0;
-  padding: 0rem 1rem;
+  padding: 0 1rem;
   border-right: 1px solid #e5e5e5;
 }
 
