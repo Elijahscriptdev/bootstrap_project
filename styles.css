@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .nav ul li {
   list-style-type: none;
 }
@@ -12,8 +18,27 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 955px) {
-  .nav {
+.nav li a {
+  font-weight: 700;
+  color: #000;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+  padding: 0rem 1rem;
+  border-right: 1px solid #e5e5e5;
+}
+
+.container_wrapper .navbar {
+  flex: 1;
+}
+
+.navbar {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0!important;
+  margin-bottom: 0!important; 
+}
+
+@media screen and (max-width: 1155px) {
+  .navbar {
     visibility: hidden;
   }
 }
