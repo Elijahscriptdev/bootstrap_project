@@ -1,14 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
   background: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
-  
 }
 
 .container_wrapper {
@@ -40,8 +39,8 @@ body {
 
 .navbar {
   border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 0!important;
-  margin-bottom: 0!important; 
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 1155px) {
@@ -53,8 +52,7 @@ body {
 @media screen and (max-width: 864px) {
   .subscribe-btn,
   .signin-btn {
-    padding: 0!important;
-    margin: 1rem!important;
+    padding: 0 !important;
+    margin: 1rem !important;
   }
 }
-
