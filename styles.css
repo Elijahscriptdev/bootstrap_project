@@ -39,13 +39,15 @@ body {
 
 .navbar {
   border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
 }
 
 @media screen and (max-width: 1155px) {
   .navbar {
     visibility: hidden;
+  }
+
+  main {
+    margin-top: -90px;
   }
 }
 
