@@ -17,7 +17,7 @@ Built with HTML and CSS(bootstrap)
     [Repository](https://github.com/Elijahscriptdev/bootstrap_project.git)
 
 ### USING THE PROJECT
-Click on this [link](https://raw.githack.com/Elijahscriptdev/bootstrap_project/ft-hompage/index.html)  to go to the live preview 
+Click on this [link](https://raw.githack.com/Elijahscriptdev/bootstrap_project/ft-homepage/index.html)  to go to the live preview 
 
 ### AUTHOR
 [ELIJAH OBOMINURU](https://github.com/Elijahscriptdev)
