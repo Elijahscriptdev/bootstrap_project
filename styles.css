@@ -1,12 +1,10 @@
 body {
   background: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
-  margin: 0;
 }
 
 .container_wrapper {
   max-width: 1300px;
-  margin: auto;
   background: #fff;
 }
 
@@ -38,7 +36,7 @@ a {
   color: #000;
   font-size: 1.25rem;
   margin-bottom: 0;
-  padding: 0 1rem;
+  padding: 0 10px;
   border-right: 1px solid #e5e5e5;
 }
 
@@ -87,11 +85,6 @@ main {
 
 .featured-col img {
   width: 100%;
-}
-
-.featured {
-  max-width: 98%;
-  margin: auto;
 }
 
 .fa-search {
@@ -309,7 +302,6 @@ main {
   position: relative;
   padding: 2rem 0 4rem 0;
   max-width: 95%;
-  margin: auto;
 }
 
 .s-img-one,
