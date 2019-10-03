@@ -1,13 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
-
 body {
   background: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
+  margin: 0;
 }
 
 .container_wrapper {
@@ -79,6 +73,11 @@ a {
 
 .navbar {
   border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
 }
 
 main {
