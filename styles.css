@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 body {
   background: #f4f5f6;
   font-family: "Roboto Condensed", sans-serif;
@@ -5,6 +12,7 @@ body {
 
 .container_wrapper {
   max-width: 1300px;
+  margin: auto;
   background: #fff;
 }
 
@@ -36,13 +44,12 @@ a {
   color: #000;
   font-size: 1.25rem;
   margin-bottom: 0;
-  padding: 0 10px;
+  padding: 0 1rem;
   border-right: 1px solid #e5e5e5;
 }
 
 .logo-area {
   background: #f72210;
-  margin: 0;
 }
 
 .current-date {
@@ -72,11 +79,6 @@ a {
 
 .navbar {
   border-bottom: 1px solid #e5e5e5;
-  margin: 0;
-}
-
-nav ul li {
-  list-style: none;
 }
 
 main {
@@ -87,7 +89,13 @@ main {
   width: 100%;
 }
 
+.featured {
+  max-width: 98%;
+  margin: auto;
+}
+
 .fa-search {
+  position: absolute;
   left: 50%;
 }
 
@@ -301,17 +309,7 @@ main {
   position: relative;
   padding: 2rem 0 4rem 0;
   max-width: 95%;
-}
-
-.s-img-one,
-.s-img-two {
-  position: absolute;
-  top: 0;
-}
-
-.s-img-two {
-  left: 25%;
-  top: 10%;
+  margin: auto;
 }
 
 .trans-btn {
@@ -321,7 +319,17 @@ main {
 }
 
 .p-title {
-  font-weight: 300;
+  font-weight: 300 !important;
+}
+
+@media screen and (max-width: 794px) {
+  .navbar {
+    visibility: hidden;
+  }
+
+  .trans-btn {
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1200px) {
